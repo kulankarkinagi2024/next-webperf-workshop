@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import Page from '../components/Page'
+import Page from '@/components/Page'
 import { Inter } from 'next/font/google'
-import '../globals.css'
 import Script from 'next/script'
 import InfoBar from './InfoBar'
+import '@/globals.css'
 
 const inter = Inter({
   style: ['normal', 'italic'],

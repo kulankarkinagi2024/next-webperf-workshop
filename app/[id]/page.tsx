@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-import type { Store } from '../../types'
-import api from '../../api'
-import StoreCard from '../../components/StoreCard'
+import type { Store } from '@/types'
+import api from '@/api'
+import StoreCard from '@/components/StoreCard'
 
 export const dynamic = 'force-dynamic'
 
