@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
-import type { Store } from '../types'
+import type { Store } from '@/types'
 
-import api from '../api'
+import api from '@/api'
 
-import Stack from '../components/Stack'
-import StoreCard from '../components/StoreCard'
+import Stack from '@/components/Stack'
+import StoreCard from '@/components/StoreCard'
 import React from 'react'
 
 export const dynamic = 'force-dynamic'
