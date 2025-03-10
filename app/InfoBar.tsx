@@ -20,7 +20,7 @@ export default function InfoBar() {
         backgroundColor: 'lightgrey',
         color: 'black',
       }}
-    >
+    > 
       {info}
     </div>
   ) : null
